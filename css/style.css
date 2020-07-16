@@ -1,0 +1,104 @@
+/* Pricing Tables */
+
+.cheat_sheet {
+    margin: 5px;
+    padding: 0;
+    margin-bottom: 1.11111rem;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+    -webkit-print-color-adjust: exact;
+}
+.cheat_sheet * {
+    list-style: none;
+    line-height: 1;
+}
+.cheat_sheet .title {
+    background-color: #0079BD;
+    padding: 0.83333rem 1.11111rem;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.cheat_sheet .bullet-item {
+    background-color: #FFFFFF;
+    padding: 0.83333rem;
+    text-align: left;
+    color: #333333;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.cheat_sheet .bullet-item .acronym {
+    width: 50px;
+    display: inline-block;
+}
+
+.cheat_sheet .notes {
+    background-color: #d6e7f7;
+    border-top: 3px solid #0079BD;
+}
+.cheat_sheet .italic {
+    font-style: italic;
+}
+.cheat_sheet li.d-m {
+    border-top: 2px solid #0079BD;
+    line-height: 0px;
+    margin: 0x;
+    padding: 0px;
+}
+.cheat_sheet table {
+    width: 100%;
+}
+.cheat_sheet table td {
+    line-height: 1;
+    padding: 0.83333rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.cheat_sheet table td.acronym {
+    background-color: #fff;
+    width: 50px;
+}
+.cheat_sheet table td {
+    font-style: italic;
+}
+.cheat_sheet_b {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+.cheat_sheet .col-xs-4 {
+}
+
+.cheat_sheet .c-r {
+    width: 60px;
+    display: inline-block;
+    float: right;
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.cp-background i {
+    float: right;
+    color: #ffffff;
+}
+.cp-background:hover {
+    color: #333;
+}
+
+@media print {
+    .hidden-print {
+        display: none !important;
+    }
+}
+
+.footer {
+    background-color: #d6e7f7;
+    border-top: 3px solid #0079BD;
+    text-align: center;
+    color: #333;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
